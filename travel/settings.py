@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': 'travel_lt14',
         'USER': 'travel_lt14_user',
         'PASSWORD': '194Il0b1G6svUh5ePBGBh2hXey1v5I2z',
-        'HOST': 'dpg-d6fhi9paae7s7392sns0-a',
+        'HOST': 'dpg-d6fhi9paae7s7392sns0-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
@@ -131,4 +131,5 @@ MEDIA_URL = '/media/'
 
 
 MEDIA_ROOT = BASE_DIR / 'media'
+
 
