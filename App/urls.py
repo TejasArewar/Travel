@@ -17,8 +17,5 @@ urlpatterns = [
     path('get-all-users/', views.get_all_users, name='get_all_users'),
     path('get-user-itineraries/<int:user_id>/', views.get_user_itineraries, name='get_user_itineraries'),
     path('', views.home, name='home'),
-
-
-    path('create-admin/', views.create_admin, name='create_admin'),
-
 ]
+
