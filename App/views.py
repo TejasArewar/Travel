@@ -342,21 +342,3 @@ def get_user_itineraries(request, user_id):
 
 
 
-
-
-from django.http import HttpResponse
-from django.contrib.auth import get_user_model
-
-def create_admin(request):
-    User = get_user_model()
-
-    if not User.objects.filter(username="admin").exists():
-        User.objects.create_superuser(
-            username="TejasArewar",
-            email="tejas.arewar.ta@gmail.com",
-            password="Pokemon@123"
-        )
-        return HttpResponse("Superuser created!")
-    
-    return HttpResponse("Superuser already exists.")
-
