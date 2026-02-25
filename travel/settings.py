@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'travel.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Travel',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': 'localhost',
+        'NAME': 'travel_lt14',
+        'USER': 'travel_lt14_user',
+        'PASSWORD': '194Il0b1G6svUh5ePBGBh2hXey1v5I2z',
+        'HOST': 'dpg-d6fhi9paae7s7392sns0-a',
         'PORT': '5432',
     }
 }
@@ -131,3 +131,4 @@ MEDIA_URL = '/media/'
 
 
 MEDIA_ROOT = BASE_DIR / 'media'
+
